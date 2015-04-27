@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class GenreForm
+Partial Class ArtristForm
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -41,10 +41,10 @@ Partial Class GenreForm
         Me.ToolbarGroupBox.Controls.Add(Me.Forward)
         Me.ToolbarGroupBox.Controls.Add(Me.Back)
         Me.ToolbarGroupBox.Controls.Add(Me.DirectoryGroup)
-        Me.ToolbarGroupBox.Location = New System.Drawing.Point(0, 0)
+        Me.ToolbarGroupBox.Location = New System.Drawing.Point(0, 1)
         Me.ToolbarGroupBox.Name = "ToolbarGroupBox"
         Me.ToolbarGroupBox.Size = New System.Drawing.Size(1266, 65)
-        Me.ToolbarGroupBox.TabIndex = 0
+        Me.ToolbarGroupBox.TabIndex = 1
         Me.ToolbarGroupBox.TabStop = False
         '
         'Forward
@@ -137,14 +137,14 @@ Partial Class GenreForm
         Me.GenreButton.Text = "Genre"
         Me.GenreButton.UseVisualStyleBackColor = True
         '
-        'GenreForm
+        'ArtristForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1263, 546)
         Me.Controls.Add(Me.ToolbarGroupBox)
-        Me.Name = "GenreForm"
-        Me.Text = "9"
+        Me.Name = "ArtristForm"
+        Me.Text = "ArtristForm"
         Me.ToolbarGroupBox.ResumeLayout(False)
         Me.DirectoryGroup.ResumeLayout(False)
         Me.DirectoryGroup.PerformLayout()
@@ -161,5 +161,4 @@ Partial Class GenreForm
     Friend WithEvents password As System.Windows.Forms.TextBox
     Friend WithEvents username As System.Windows.Forms.TextBox
     Friend WithEvents GenreButton As System.Windows.Forms.Button
-
 End Class
