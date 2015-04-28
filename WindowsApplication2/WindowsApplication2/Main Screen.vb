@@ -80,7 +80,6 @@ Public Class GenreForm
 
         'This allows for a max of 100 buttons on each form
         Dim genreButton(100) As Button
-        Dim genrePanel As New Panel
         Dim columnCount As New Integer
         Dim rowCount As New Integer
         columnCount = 0
@@ -92,17 +91,19 @@ Public Class GenreForm
                 genreButton(i) = New Button
                 With genreButton(i)
                     If columnCount Mod 3 = 0 Then
-                        .Location = New System.Drawing.Point(150, 30 * rowCount)
+                        .Location = New System.Drawing.Point(6, 30 * rowCount)
                     End If
                     If columnCount Mod 3 = 1 Then
-                        .Location = New System.Drawing.Point(500, 30 * rowCount)
+                        .Location = New System.Drawing.Point(456, 30 * rowCount)
                     End If
                     If columnCount Mod 3 = 2 Then
-                        .Location = New System.Drawing.Point(850, 30 * rowCount)
-                        rowCount += 5
+                        .Location = New System.Drawing.Point(906, 30 * rowCount)
+                        rowCount += 8
                     End If
-                    .Size = New System.Drawing.Size(150, 100)
+                    .Size = New System.Drawing.Size(300, 200)
                     .Text = uniqueGenre(i)
+                    Dim newFont As New Font("Tahoma", 16)
+                    .Font = newFont
                 End With
                 .Controls.Add(genreButton(i))
                 columnCount += 1
@@ -113,7 +114,8 @@ Public Class GenreForm
             .Size = New System.Drawing.Size(1210, 413)
         End With
         genrePanel.AutoScroll = True
-        Me.Controls.Add(genrePanel)
+        genrePanel.Dock = DockStyle.Fill
+        'Me.Controls.Add(genrePanel)
     End Sub
 
     Private Sub Button_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)

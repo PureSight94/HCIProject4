@@ -78,18 +78,10 @@
     <Compile Include="ArtristForm.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Class1.vb" />
-    <Compile Include="Class2.vb" />
     <Compile Include="Form1.Designer.vb">
       <DependentUpon>Form1.vb</DependentUpon>
     </Compile>
     <Compile Include="Form1.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Help.Designer.vb">
-      <DependentUpon>Help.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Help.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="HelpBox.vb" />
@@ -119,9 +111,6 @@
   <ItemGroup>
     <EmbeddedResource Include="ArtristForm.resx">
       <DependentUpon>ArtristForm.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Help.resx">
-      <DependentUpon>Help.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Main Screen.resx">
       <DependentUpon>Main Screen.vb</DependentUpon>

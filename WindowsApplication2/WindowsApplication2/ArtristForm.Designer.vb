@@ -113,14 +113,17 @@ Partial Class ArtristForm
         '
         'password
         '
+        Me.password.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.password.Location = New System.Drawing.Point(602, 21)
         Me.password.Multiline = True
         Me.password.Name = "password"
+        Me.password.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.password.Size = New System.Drawing.Size(112, 32)
         Me.password.TabIndex = 4
         '
         'username
         '
+        Me.username.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.username.Location = New System.Drawing.Point(484, 21)
         Me.username.Multiline = True
         Me.username.Name = "username"

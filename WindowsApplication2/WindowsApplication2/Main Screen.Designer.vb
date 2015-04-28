@@ -32,6 +32,7 @@ Partial Class GenreForm
         Me.password = New System.Windows.Forms.TextBox()
         Me.username = New System.Windows.Forms.TextBox()
         Me.GenreButton = New System.Windows.Forms.Button()
+        Me.genrePanel = New System.Windows.Forms.Panel()
         Me.ToolbarGroupBox.SuspendLayout()
         Me.DirectoryGroup.SuspendLayout()
         Me.SuspendLayout()
@@ -41,9 +42,10 @@ Partial Class GenreForm
         Me.ToolbarGroupBox.Controls.Add(Me.Forward)
         Me.ToolbarGroupBox.Controls.Add(Me.Back)
         Me.ToolbarGroupBox.Controls.Add(Me.DirectoryGroup)
+        Me.ToolbarGroupBox.Dock = System.Windows.Forms.DockStyle.Top
         Me.ToolbarGroupBox.Location = New System.Drawing.Point(0, 0)
         Me.ToolbarGroupBox.Name = "ToolbarGroupBox"
-        Me.ToolbarGroupBox.Size = New System.Drawing.Size(1266, 65)
+        Me.ToolbarGroupBox.Size = New System.Drawing.Size(1263, 65)
         Me.ToolbarGroupBox.TabIndex = 0
         Me.ToolbarGroupBox.TabStop = False
         '
@@ -113,14 +115,17 @@ Partial Class GenreForm
         '
         'password
         '
+        Me.password.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.password.Location = New System.Drawing.Point(602, 21)
         Me.password.Multiline = True
         Me.password.Name = "password"
+        Me.password.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.password.Size = New System.Drawing.Size(112, 32)
         Me.password.TabIndex = 4
         '
         'username
         '
+        Me.username.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.username.Location = New System.Drawing.Point(484, 21)
         Me.username.Multiline = True
         Me.username.Name = "username"
@@ -132,16 +137,25 @@ Partial Class GenreForm
         Me.GenreButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GenreButton.Location = New System.Drawing.Point(0, 12)
         Me.GenreButton.Name = "GenreButton"
-        Me.GenreButton.Size = New System.Drawing.Size(465, 47)
+        Me.GenreButton.Size = New System.Drawing.Size(449, 47)
         Me.GenreButton.TabIndex = 4
         Me.GenreButton.Text = "Genre"
         Me.GenreButton.UseVisualStyleBackColor = True
+        '
+        'genrePanel
+        '
+        Me.genrePanel.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.genrePanel.Location = New System.Drawing.Point(0, 65)
+        Me.genrePanel.Name = "genrePanel"
+        Me.genrePanel.Size = New System.Drawing.Size(1263, 677)
+        Me.genrePanel.TabIndex = 1
         '
         'GenreForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1263, 546)
+        Me.ClientSize = New System.Drawing.Size(1263, 742)
+        Me.Controls.Add(Me.genrePanel)
         Me.Controls.Add(Me.ToolbarGroupBox)
         Me.Name = "GenreForm"
         Me.Text = "9"
@@ -161,5 +175,6 @@ Partial Class GenreForm
     Friend WithEvents password As System.Windows.Forms.TextBox
     Friend WithEvents username As System.Windows.Forms.TextBox
     Friend WithEvents GenreButton As System.Windows.Forms.Button
+    Friend WithEvents genrePanel As System.Windows.Forms.Panel
 
 End Class
