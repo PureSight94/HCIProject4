@@ -1,14 +1,3 @@
-C:\Users\Nick\documents\visual studio 2010\Projects\WindowsApplication2\WindowsApplication2\bin\Debug\WindowsApplication2.exe
-C:\Users\Nick\documents\visual studio 2010\Projects\WindowsApplication2\WindowsApplication2\bin\Debug\WindowsApplication2.pdb
-C:\Users\Nick\documents\visual studio 2010\Projects\WindowsApplication2\WindowsApplication2\bin\Debug\WindowsApplication2.xml
-C:\Users\Nick\documents\visual studio 2010\Projects\WindowsApplication2\WindowsApplication2\obj\x86\Debug\WindowsApplication2.ArtristForm.resources
-C:\Users\Nick\documents\visual studio 2010\Projects\WindowsApplication2\WindowsApplication2\obj\x86\Debug\WindowsApplication2.GenreForm.resources
-C:\Users\Nick\documents\visual studio 2010\Projects\WindowsApplication2\WindowsApplication2\obj\x86\Debug\WindowsApplication2.Resources.resources
-C:\Users\Nick\documents\visual studio 2010\Projects\WindowsApplication2\WindowsApplication2\obj\x86\Debug\HCI Project4.vbproj.GenerateResource.Cache
-C:\Users\Nick\documents\visual studio 2010\Projects\WindowsApplication2\WindowsApplication2\obj\x86\Debug\WindowsApplication2.exe
-C:\Users\Nick\documents\visual studio 2010\Projects\WindowsApplication2\WindowsApplication2\obj\x86\Debug\WindowsApplication2.xml
-C:\Users\Nick\documents\visual studio 2010\Projects\WindowsApplication2\WindowsApplication2\obj\x86\Debug\WindowsApplication2.pdb
-C:\Users\Nick\documents\visual studio 2010\Projects\WindowsApplication2\WindowsApplication2\obj\x86\Debug\WindowsApplication2.Help.resources
 C:\Users\COSNUEMER\Documents\Visual Studio 2010\Projects\HCIProject4\WindowsApplication2\WindowsApplication2\bin\Debug\WindowsApplication2.exe
 C:\Users\COSNUEMER\Documents\Visual Studio 2010\Projects\HCIProject4\WindowsApplication2\WindowsApplication2\bin\Debug\WindowsApplication2.pdb
 C:\Users\COSNUEMER\Documents\Visual Studio 2010\Projects\HCIProject4\WindowsApplication2\WindowsApplication2\bin\Debug\WindowsApplication2.xml
@@ -19,3 +8,13 @@ C:\Users\COSNUEMER\Documents\Visual Studio 2010\Projects\HCIProject4\WindowsAppl
 C:\Users\COSNUEMER\Documents\Visual Studio 2010\Projects\HCIProject4\WindowsApplication2\WindowsApplication2\obj\x86\Debug\WindowsApplication2.exe
 C:\Users\COSNUEMER\Documents\Visual Studio 2010\Projects\HCIProject4\WindowsApplication2\WindowsApplication2\obj\x86\Debug\WindowsApplication2.xml
 C:\Users\COSNUEMER\Documents\Visual Studio 2010\Projects\HCIProject4\WindowsApplication2\WindowsApplication2\obj\x86\Debug\WindowsApplication2.pdb
+C:\Users\Nick\Documents\Visual Studio 2010\Projects\WindowsApplication2\WindowsApplication2\bin\Debug\WindowsApplication2.exe
+C:\Users\Nick\Documents\Visual Studio 2010\Projects\WindowsApplication2\WindowsApplication2\bin\Debug\WindowsApplication2.pdb
+C:\Users\Nick\Documents\Visual Studio 2010\Projects\WindowsApplication2\WindowsApplication2\bin\Debug\WindowsApplication2.xml
+C:\Users\Nick\Documents\Visual Studio 2010\Projects\WindowsApplication2\WindowsApplication2\obj\x86\Debug\WindowsApplication2.ArtristForm.resources
+C:\Users\Nick\Documents\Visual Studio 2010\Projects\WindowsApplication2\WindowsApplication2\obj\x86\Debug\WindowsApplication2.GenreForm.resources
+C:\Users\Nick\Documents\Visual Studio 2010\Projects\WindowsApplication2\WindowsApplication2\obj\x86\Debug\WindowsApplication2.Resources.resources
+C:\Users\Nick\Documents\Visual Studio 2010\Projects\WindowsApplication2\WindowsApplication2\obj\x86\Debug\HCI Project4.vbproj.GenerateResource.Cache
+C:\Users\Nick\Documents\Visual Studio 2010\Projects\WindowsApplication2\WindowsApplication2\obj\x86\Debug\WindowsApplication2.exe
+C:\Users\Nick\Documents\Visual Studio 2010\Projects\WindowsApplication2\WindowsApplication2\obj\x86\Debug\WindowsApplication2.xml
+C:\Users\Nick\Documents\Visual Studio 2010\Projects\WindowsApplication2\WindowsApplication2\obj\x86\Debug\WindowsApplication2.pdb

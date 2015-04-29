@@ -1,0 +1,12 @@
+C:\Users\Nick\Documents\Visual Studio 2010\Projects\WindowsApplication2\WindowsApplication2\bin\Release\WindowsApplication2.exe
+C:\Users\Nick\Documents\Visual Studio 2010\Projects\WindowsApplication2\WindowsApplication2\bin\Release\WindowsApplication2.pdb
+C:\Users\Nick\Documents\Visual Studio 2010\Projects\WindowsApplication2\WindowsApplication2\bin\Release\WindowsApplication2.xml
+C:\Users\Nick\Documents\Visual Studio 2010\Projects\WindowsApplication2\WindowsApplication2\obj\x86\Release\WindowsApplication2.ArtristForm.resources
+C:\Users\Nick\Documents\Visual Studio 2010\Projects\WindowsApplication2\WindowsApplication2\obj\x86\Release\WindowsApplication2.GenreForm.resources
+C:\Users\Nick\Documents\Visual Studio 2010\Projects\WindowsApplication2\WindowsApplication2\obj\x86\Release\WindowsApplication2.Resources.resources
+C:\Users\Nick\Documents\Visual Studio 2010\Projects\WindowsApplication2\WindowsApplication2\obj\x86\Release\WindowsApplication2.Registration.resources
+C:\Users\Nick\Documents\Visual Studio 2010\Projects\WindowsApplication2\WindowsApplication2\obj\x86\Release\WindowsApplication2.Wishlist.resources
+C:\Users\Nick\Documents\Visual Studio 2010\Projects\WindowsApplication2\WindowsApplication2\obj\x86\Release\HCI Project4.vbproj.GenerateResource.Cache
+C:\Users\Nick\Documents\Visual Studio 2010\Projects\WindowsApplication2\WindowsApplication2\obj\x86\Release\WindowsApplication2.exe
+C:\Users\Nick\Documents\Visual Studio 2010\Projects\WindowsApplication2\WindowsApplication2\obj\x86\Release\WindowsApplication2.xml
+C:\Users\Nick\Documents\Visual Studio 2010\Projects\WindowsApplication2\WindowsApplication2\obj\x86\Release\WindowsApplication2.pdb

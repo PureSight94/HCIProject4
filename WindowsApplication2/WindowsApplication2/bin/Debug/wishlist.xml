@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<catalog>
+
+  <cd>
+    <genre>Blues</genre>
+    <artist>Duke Robillard</artist>
+    <title>Dukes Blue</title>
+    <location> d12</location>
+    <price> $2.99</price>
+  </cd>
+
+  <cd>
+    <genre>Alternative</genre>
+    <artist>Ryan Gosling</artist>
+    <title>Dead Man's Bones</title>
+    <location> s6</location>
+    <price> $5.99</price>
+  </cd>
+
+ 
+
+  <cd>
+    <genre>Country</genre>
+    <artist>Miranda Lambert</artist>
+    <title>Revolution</title>
+    <location> a24</location>
+    <price> $3.99</price>
+  </cd>
+
+</catalog>

@@ -29,9 +29,8 @@ Partial Class GenreForm
         Me.Help = New System.Windows.Forms.Button()
         Me.Login = New System.Windows.Forms.Button()
         Me.Register = New System.Windows.Forms.Button()
-        Me.password = New System.Windows.Forms.TextBox()
         Me.username = New System.Windows.Forms.TextBox()
-        Me.GenreButton = New System.Windows.Forms.Button()
+        Me.password = New System.Windows.Forms.TextBox()
         Me.genrePanel = New System.Windows.Forms.Panel()
         Me.ToolbarGroupBox.SuspendLayout()
         Me.DirectoryGroup.SuspendLayout()
@@ -45,7 +44,7 @@ Partial Class GenreForm
         Me.ToolbarGroupBox.Dock = System.Windows.Forms.DockStyle.Top
         Me.ToolbarGroupBox.Location = New System.Drawing.Point(0, 0)
         Me.ToolbarGroupBox.Name = "ToolbarGroupBox"
-        Me.ToolbarGroupBox.Size = New System.Drawing.Size(1263, 65)
+        Me.ToolbarGroupBox.Size = New System.Drawing.Size(1243, 65)
         Me.ToolbarGroupBox.TabIndex = 0
         Me.ToolbarGroupBox.TabStop = False
         '
@@ -74,19 +73,18 @@ Partial Class GenreForm
         Me.DirectoryGroup.Controls.Add(Me.Help)
         Me.DirectoryGroup.Controls.Add(Me.Login)
         Me.DirectoryGroup.Controls.Add(Me.Register)
-        Me.DirectoryGroup.Controls.Add(Me.password)
         Me.DirectoryGroup.Controls.Add(Me.username)
-        Me.DirectoryGroup.Controls.Add(Me.GenreButton)
-        Me.DirectoryGroup.Location = New System.Drawing.Point(310, 0)
+        Me.DirectoryGroup.Controls.Add(Me.password)
+        Me.DirectoryGroup.Location = New System.Drawing.Point(190, 0)
         Me.DirectoryGroup.Name = "DirectoryGroup"
-        Me.DirectoryGroup.Size = New System.Drawing.Size(956, 65)
+        Me.DirectoryGroup.Size = New System.Drawing.Size(1053, 65)
         Me.DirectoryGroup.TabIndex = 3
         Me.DirectoryGroup.TabStop = False
         '
         'Help
         '
         Me.Help.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Help.Location = New System.Drawing.Point(910, 12)
+        Me.Help.Location = New System.Drawing.Point(1007, 12)
         Me.Help.Name = "Help"
         Me.Help.Size = New System.Drawing.Size(40, 47)
         Me.Help.TabIndex = 3
@@ -96,7 +94,7 @@ Partial Class GenreForm
         'Login
         '
         Me.Login.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Login.Location = New System.Drawing.Point(720, 21)
+        Me.Login.Location = New System.Drawing.Point(829, 20)
         Me.Login.Name = "Login"
         Me.Login.Size = New System.Drawing.Size(75, 32)
         Me.Login.TabIndex = 3
@@ -106,55 +104,45 @@ Partial Class GenreForm
         'Register
         '
         Me.Register.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Register.Location = New System.Drawing.Point(801, 21)
+        Me.Register.Location = New System.Drawing.Point(910, 20)
         Me.Register.Name = "Register"
         Me.Register.Size = New System.Drawing.Size(91, 32)
         Me.Register.TabIndex = 6
         Me.Register.Text = "Register"
         Me.Register.UseVisualStyleBackColor = True
         '
+        'username
+        '
+        Me.username.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.username.Location = New System.Drawing.Point(584, 20)
+        Me.username.Multiline = True
+        Me.username.Name = "username"
+        Me.username.Size = New System.Drawing.Size(112, 32)
+        Me.username.TabIndex = 5
+        '
         'password
         '
         Me.password.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.password.Location = New System.Drawing.Point(602, 21)
+        Me.password.Location = New System.Drawing.Point(702, 20)
         Me.password.Multiline = True
         Me.password.Name = "password"
         Me.password.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.password.Size = New System.Drawing.Size(112, 32)
         Me.password.TabIndex = 4
         '
-        'username
-        '
-        Me.username.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.username.Location = New System.Drawing.Point(484, 21)
-        Me.username.Multiline = True
-        Me.username.Name = "username"
-        Me.username.Size = New System.Drawing.Size(112, 32)
-        Me.username.TabIndex = 5
-        '
-        'GenreButton
-        '
-        Me.GenreButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GenreButton.Location = New System.Drawing.Point(0, 12)
-        Me.GenreButton.Name = "GenreButton"
-        Me.GenreButton.Size = New System.Drawing.Size(449, 47)
-        Me.GenreButton.TabIndex = 4
-        Me.GenreButton.Text = "Genre"
-        Me.GenreButton.UseVisualStyleBackColor = True
-        '
         'genrePanel
         '
         Me.genrePanel.Dock = System.Windows.Forms.DockStyle.Fill
         Me.genrePanel.Location = New System.Drawing.Point(0, 65)
         Me.genrePanel.Name = "genrePanel"
-        Me.genrePanel.Size = New System.Drawing.Size(1263, 677)
+        Me.genrePanel.Size = New System.Drawing.Size(1243, 677)
         Me.genrePanel.TabIndex = 1
         '
         'GenreForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1263, 742)
+        Me.ClientSize = New System.Drawing.Size(1243, 742)
         Me.Controls.Add(Me.genrePanel)
         Me.Controls.Add(Me.ToolbarGroupBox)
         Me.Name = "GenreForm"

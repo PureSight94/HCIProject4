@@ -120,12 +120,6 @@
     <Compile Include="Registration.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Wishlist.Designer.vb">
-      <DependentUpon>Wishlist.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Wishlist.vb">
-      <SubType>Form</SubType>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="ArtristForm.resx">
@@ -142,9 +136,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Registration.resx">
       <DependentUpon>Registration.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Wishlist.resx">
-      <DependentUpon>Wishlist.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
